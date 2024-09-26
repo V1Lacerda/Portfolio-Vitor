@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me | Portfólio - Vitor Lacerda </title>
+    <link rel="stylesheet" href="style_port.css">
+    <link rel="icon" href="coding.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    </style>
+</head>
+<body>
+        <nav>
+            <a class="link" href="more_about.html">Sobre Mim</a>
+            <a class="link" href="projects.html">Projetos</a>
+        </nav>
+        <div style="display: flex; width: 800px; height: 50px;">
+            <a class="logo" href="Portfolio.html"><img src="vl-unique-logo-designs-2-ec219ee542dd48751d3c5563c32f1b05ccf6f5c15af96573b3af3cb63c31981e-Photoroom.png"></a>
+            <a class="logo2" href="https://www.instagram.com/v1lacerda_/" target="_blank"><img src="pngwing.com.png"></a>
+            <a class="logo3" href="https://www.linkedin.com/in/vitor-lacerda-453539321/" target="_blank"><img src="linkedin.png"></a>
+            <a class="logo3" href="https://wa.me/5518998162606" target="_blank"><img src="whatsapp.png"></a>
+        </div>
+
+        <div class="main_text_box">
+            <h1 style="font-size: 23px;">Você pode me contatar através do formulário abaixo! Enviando uma mensagem diretamente para o meu e-mail!
+                <br><br> Minhas redes sociais também podem ser encontradas no topo da página.
+            </h1>
+
+            <div class="form-container" style="animation: fadeInUp 1.9s forwards;">
+                <h2>Me contate</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Seu melhor e-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Enviar" onclick="alert('Obrigado pelo contato! Retornarei a mensagem assim que possível!')">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <p class="bg_text">Contact Me.</p>
+</body>

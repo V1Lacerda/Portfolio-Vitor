@@ -1,0 +1,222 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 90vh;
+    width: 100%;
+    background: rgb(47,47,47);
+    background: linear-gradient(202deg, rgba(32, 1, 36, 0.911) 0%, rgba(19, 17, 34, 0.842) 38%, rgba(1, 29, 34, 0.918) 97%), url("sl_0210121_40570_58.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    }
+.main_text_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: fit-content;
+    width: 60%;
+    text-align: justify;
+    margin: 130px 320px;
+    padding: 1px 0px 8px 50px;
+    word-wrap: break-word;
+    color: rgb(238, 238, 238); 
+}
+
+
+.apresentation{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 55px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1.7s forwards;
+}
+.about{
+    margin: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.main_text{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 0;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1.8s forwards;
+
+}
+
+.ref{
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 50px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1.9s forwards;
+    transition: transform 0.3s ease;
+}
+.ref:hover{
+    transition: 0.5 ease-out;
+    transform: scale(1.2) ;
+    text-decoration: underline;
+}
+@keyframes fadeInUp{
+    0%{
+        opacity: 0;
+        transform: translateY(151px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+nav{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    right: 40vh;
+    top: 10vh;
+}
+
+.link:hover{
+    transform: scale(1.15);
+    font-weight: 700;
+}
+.link{
+    transition: transform 0.2s ease;
+    text-decoration: none;
+    color: rgb(238, 238, 238);
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-indent: 20px;
+}
+
+.logo{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 70px;
+}
+.logo2{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+.logo3{
+    display: flex;
+    width: 100px;
+    height: 50px;
+    margin-top: 70px;
+}
+
+.bg_text{
+    color: whitesmoke;
+    text-indent: -10px;
+    font-size: 200px;
+    position: absolute;
+    opacity: 0.1;
+    display: block;
+    z-index: 0;
+    flex-direction: column;   
+    width: fit-content;
+    text-decoration: none;
+    text-transform: none;
+    user-select: none;
+    align-items: end;
+    top: 0;
+}
+
+.img_txt{
+    display: flex;
+    flex-direction: row;
+    justify-content: safe;
+    align-items: center;
+}
+
+ul{
+    border: 3px double black;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.274);
+    box-shadow: 4px 3px rgb(79, 73, 83);
+    padding: 15px 20px;
+}
+
+.form-container {
+    background: #837d7d;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px rgba(49, 1, 104, 0.562);
+    padding: 20px;
+    width: 100%;
+    max-width: 1100px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #353434;
+    font-size: 30px;
+    text-shadow: 1.5px 1px 2px rgb(141, 139, 139);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: normal;
+    color: #ebebeb;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-group textarea {
+    resize: none;
+    height: 80px;
+}
+
+.form-group input[type="submit"] {
+    background-color: #5a1791;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #8507a5;}
+
+    
